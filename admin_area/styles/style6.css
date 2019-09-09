@@ -1,0 +1,61 @@
+#frmInsertBrand, #frmInsertCategory, #frmEditBrand, #frmEditCategory
+{					
+	width: 795px;		
+	min-height: 150px;
+	background-color: #187eae;
+}
+#brandheader, #categoryheader
+{
+	margin-top: -20px;
+	padding-top: 15px;					
+	text-align: center;
+	height: 43px;
+	background-color: #ebebe0;
+}
+#content
+{
+	padding: 20px 0px;
+	height: 530px;
+}
+#brand, #category
+{
+	margin-left: 280px;
+	color: white;
+}				
+#frmEditCategory input[type=text],
+#frmInsertCategory  input[type=text]
+{			
+	/* outset border effect*/
+	border-style: groove;
+	border-top: solid #A8A8A8 1px; 
+	border-left: solid #A8A8A8 1px; 
+	border-bottom: solid white 1px;
+	border-right: solid white 1px;
+	line-height: 20px;
+	text-align: left;
+	width: 170px;
+	padding-left: 5px;
+}
+#insert_brand, #insert_category, #edit_brand, #edit_category, #cancel
+{
+	background: -moz-linear-gradient(#ffffff, #CCCCCC);
+	background: -webkit-linear-gradient(#ffffff, #CCCCCC);
+	background: -ms-linear-gradient(#ffffff, #CCCCCC);
+	height: 30px;
+	width: 120px;
+	margin-top: 20px;	
+}			
+#insert_brand, #insert_category, #edit_brand, #edit_category  
+{
+	margin-left: 290px;								
+}
+#cancel
+{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+input[type=button]:hover,
+input[type=submit]:hover
+{
+	transform: scale(1.1);
+}

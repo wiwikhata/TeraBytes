@@ -1,0 +1,56 @@
+table
+{
+    border-collapse: collapse;
+}
+h2
+{
+    margin-top: -30px;
+    background-color: #ebebe0;
+    padding-top: 15px;
+    height: 42px;
+}
+#tableheader
+{
+    line-height: 40px;
+    color: white;
+}
+.row
+{
+    line-height: 50px;
+}
+td
+{
+    vertical-align: middle;
+    border-top: 10px solid transparent;
+}
+td a
+{
+    text-decoration: none;
+}
+td a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+#navlinks
+{
+    line-height: 38px;
+}
+input[type=button]
+{
+    display: block;
+    /* gradients in firefox, IE, Chrome & Safari */				
+    background: -moz-linear-gradient(#ffffff, #CCCCCC);
+    background: -webkit-linear-gradient(#ffffff, #CCCCCC);
+    background: -ms-linear-gradient(#ffffff, #CCCCCC);
+    font-size: 18px;
+    height: 30px;
+    width: 150px;
+    margin: 10px auto;
+    transition: .2s;	
+}
+input[type=button]:hover
+{
+    transform: scale(1.1);
+}

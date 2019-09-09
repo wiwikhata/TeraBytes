@@ -1,0 +1,52 @@
+table
+{
+	border-collapse: collapse;
+	min-height: 370px;
+}
+.edit
+{
+	margin-top: 5px;
+}
+h2
+{
+	margin-top: -35px;
+	margin-bottom: -10px;
+	background-color: #ebebe0;
+	padding-top: 15px;
+	height: 40px;
+}
+#tableheader
+{
+	line-height: 30px;
+	color: white;
+}
+.top-row
+{
+	height: 60px;
+}
+.row 
+{
+    height: 40px;    
+}			
+td, th
+{
+	vertical-align: middle;
+	border-top: 10px solid transparent;
+}
+input[type=button]
+{
+    display: block;
+    /* gradients in firefox, IE, Chrome & Safari */				
+    background: -moz-linear-gradient(#ffffff, #CCCCCC);
+    background: -webkit-linear-gradient(#ffffff, #CCCCCC);
+    background: -ms-linear-gradient(#ffffff, #CCCCCC);
+    font-size: 18px;
+    height: 30px;
+    width: 150px;
+    margin: 20px auto;
+    transition: .2s;	
+}
+input[type=button]:hover
+{
+    transform: scale(1.1);
+}				
